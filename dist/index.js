@@ -1,10 +1,13 @@
 "use strict";
-let age = 25;
-let studentName = "Nisala Chamodya Sooriyaarachchi";
-let isActive = true;
-let myObj = null;
-let undefinedData = undefined;
-let animals = ["Cat", "Dog", "BAT"];
-let vehicles = ["car", "van"];
-let student = { name: "Kasun", age: 20 };
-let dog = { name: "togo", breed: "husky", age: 3 };
+let numbers = [10, 20, 30, 40];
+console.log(numbers[0]);
+let strings = ["fsda", "fsdaf", "fdsa"];
+strings.push("10");
+strings.pop();
+let student = ["Nisala", 21];
+for (let i = 0; i < numbers.length; i++) {
+    console.log(numbers[i]);
+}
+for (const temp of numbers) {
+    console.log(temp);
+}
