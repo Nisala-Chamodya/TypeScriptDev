@@ -1,3 +1,10 @@
 "use strict";
-let age = 20;
-console.log("hello Nisala"+age);
+let age = 25;
+let studentName = "Nisala Chamodya Sooriyaarachchi";
+let isActive = true;
+let myObj = null;
+let undefinedData = undefined;
+let animals = ["Cat", "Dog", "BAT"];
+let vehicles = ["car", "van"];
+let student = { name: "Kasun", age: 20 };
+let dog = { name: "togo", breed: "husky", age: 3 };
