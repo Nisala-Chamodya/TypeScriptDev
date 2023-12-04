@@ -7,11 +7,3 @@ let undefinedData:undefined=undefined;
 let animals:Array<String>=["Cat","Dog","BAT"];
 let  vehicles:string[]=["car","van"];
 let  student:{name:string,age:number}={name:"Kasun",age:20};
-//---------------------
-interface Animal{
-    name:string;
-    breed:string;
-    age:number
-}
-let dog:Animal={name:"togo",breed:"husky",age:3};
-console.log(dog.age)

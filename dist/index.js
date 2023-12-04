@@ -1,2 +1,3 @@
 "use strict";
-console.log("hello Nisala");
+let age = 20;
+console.log("hello Nisala"+age);
